@@ -31,7 +31,7 @@ if [[ ! -d /var/www/reviewboard ]]; then
         --db-pass="$PGPASSWORD" \
         --cache-type=memcached --cache-info="$MEMCACHED" \
         --web-server-type=lighttpd --web-server-port=8000 \
-        --admin-user=admin --admin-password=admin --admin-email=admin@example.com \
+        --admin-user=jibo --admin-password=jibo --admin-email=jibo@outlook.com \
         /var/www/reviewboard/
 fi
 if [[ "${DEBUG}" ]]; then
